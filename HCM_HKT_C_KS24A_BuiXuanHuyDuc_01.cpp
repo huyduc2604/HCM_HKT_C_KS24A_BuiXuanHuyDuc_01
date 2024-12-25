@@ -2,7 +2,7 @@
 
 int main() {
     int chose = 0,total = 0,count,min,max,sum = 0,value = 0,allow = 1;
-    int addValue = 0, addIndex = 0, deleIndex = 0;
+    int addValue = 0,addIndex = 0,deleIndex = 0;
     int array[100]; 
     
     do {
@@ -41,7 +41,7 @@ int main() {
                     for (int i = 0; i < value; i++) {
                         printf("%d ", array[i]);
                     }
-                    printf("\n");
+                    printf("\n Mang da duoc nhap xong");
                 }
                 break;
                 
@@ -113,7 +113,7 @@ int main() {
                         for (int i = 0; i < value; i++) {
                             printf("%d ", array[i]);
                         }
-                        printf("\n");
+                        printf("\nDa nhap xong");
                     }
                 }
                 break;
@@ -135,7 +135,7 @@ int main() {
                     for (int i = 0; i < value; i++) {
                         printf("%d ", array[i]);
                     }
-                    printf("\n");
+                    printf("\nDa nhap xong");
                 }
                 break;
                 
@@ -167,7 +167,7 @@ int main() {
                     for (int i = 0; i < value; i++) {
                         printf("%d ", array[i]);
                     }
-                    printf("\n");
+                    printf("\nDa nhap xong");
                 }
                 break;
                 
@@ -190,7 +190,7 @@ int main() {
                     for (int i = 0; i < value; i++) {
                         printf("%d ", array[i]);
                     }
-                    printf("\n");
+                    printf("\nDa nhap xong");
                 }
                 break;
                 
